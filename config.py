@@ -19,7 +19,7 @@ from logger import LOGGER
 
 Y_PLAY=False
 YSTREAM=False
-STREAM=os.environ.get("STARTUP_STREAM", "https://www.youtube.com/watch?v=zcrUCvBD16k")
+STREAM=os.environ.get("STARTUP_STREAM", "https://youtu.be/hY5zEg9ZM54")
 regex = r"^(https?\:\/\/)?(www\.youtube\.com|youtu\.?be)\/.+"
 match = re.match(regex,STREAM)
 if match:
@@ -41,17 +41,17 @@ else:
 
 class Config:
     #Telegram API Stuffs
-    ADMIN = os.environ.get("ADMINS", '')
+    ADMIN = os.environ.get("ADMINS", '1939166467')
     ADMINS = [int(admin) for admin in (ADMIN).split()]
-    API_ID = int(os.environ.get("API_ID", ''))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")     
-    SESSION = os.environ.get("SESSION_STRING", "")
+    API_ID = int(os.environ.get("API_ID", '6085437'))
+    API_HASH = os.environ.get("API_HASH", "6db33aae3e34ab6c2a9623296b3403c0")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "1931356903:AAFCMGsC4HOfEY0IZ8F3EAfxOlLCq29Pp18")     
+    SESSION = os.environ.get("SESSION_STRING", "BQCOpH5zCGFBjV6F50c20FpCEEzwaxvX3q_k9T1ORUKmdHxkItQj36cUf0MGbgjzvGOP3ezNGfVK-VT1rpCYEjJg3YS2z04-z_8Po4PU479OReSvmsgAAEOIfE7YdYCXF3lcbiGR3_sVWqAE93Y7ymSvI-dPxgXoL-q5iiUm96FYd1-Z7mMkfnqNXWAK4ZCwY1tbuJG0dBb0RKyRB5ADSsX4Rtclt03fni0YGjlY1j74qEvTBGC7JXgyVT8SpJRbzHFORw1Yh36GwVyalYjWYg9OARl4AS-n7sQT5DNrtJgv8BHNalBhBNJuP-K7qNL8QSW_CdB0TRRSoimDrHxIn2yAc5VVAwA")
     BOT_USERNAME=None
 
     #Stream Chat and Log Group
-    CHAT = int(os.environ.get("CHAT", ""))
-    LOG_GROUP=os.environ.get("LOG_GROUP", "")
+    CHAT = int(os.environ.get("CHAT", "-1001595579669"))
+    LOG_GROUP=os.environ.get("LOG_GROUP", "-1001595579669")
     if LOG_GROUP:
         LOG_GROUP=int(LOG_GROUP)
     else:
@@ -134,8 +134,7 @@ These are commands to control player.
  1. Update and restert the bot.
     Command: <b>update</b> or <b>/restart</b>
 
-<b>How Can I Stream In My Group</b>
-  <i>The source code of this bot is public and can be found at <a href=https://github.com/subinps/VCPlayerBot>VCPlayerBot.</a>\nYou can deploy your own bot and use in your group.</i>
+ REGARDS:- @Godofwar033.</i>
 
 """
 

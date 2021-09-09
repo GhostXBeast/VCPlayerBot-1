@@ -19,7 +19,7 @@ from logger import LOGGER
 
 Y_PLAY=False
 YSTREAM=False
-STREAM=os.environ.get("STARTUP_STREAM", "https://youtu.be/hY5zEg9ZM54")
+STREAM=os.environ.get("STARTUP_STREAM", "https://youtu.be/m18vrHnxE0g")
 regex = r"^(https?\:\/\/)?(www\.youtube\.com|youtu\.?be)\/.+"
 match = re.match(regex,STREAM)
 if match:
